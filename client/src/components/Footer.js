@@ -53,9 +53,9 @@ const Footer = () => {
                     </a>
                 </div>
                 <div class='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
-                    {items.footer.map((item, index) => {
+                    {items.footer.map((item, idx) => {
                         return (
-                            <div>
+                            <div key={idx}>
                                 <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
                                     {item.name}
                                 </h2>
@@ -88,9 +88,9 @@ const Footer = () => {
                     . All Rights Reserved.
                 </span>
                 <div class='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
-                    {social_media.map((svg) => {
+                    {social_media.map((svg, idx) => {
                         return (
-                            <a href='#' class={styles['sm_link']}>
+                            <a key={idx} href='#' class={styles['sm_link']}>
                                 <img src={svg} />
                             </a>
                         );
