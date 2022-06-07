@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import logo from '../assets/images/logo.png';
 import avatar from '../assets/images/avatar.png';
+import login from '../assets/images/login.jpg';
 import DropdownBtn from './util/DropdownBtn';
+import { Login } from './Login';
+import { Link } from 'react-router-dom';
+import { Routes,Router } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 const styles = {
     dropdown_link:
@@ -77,6 +82,24 @@ const Navbar = () => {
                             alt='user'
                             onClick={() => setProfileOpen(true)}
                         />
+                        
+                    </button>
+                    <button
+                        type='button'
+                        className='flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600'
+                        id='user-menu-button'
+                        aria-expanded='false'
+                        data-dropdown-toggle='dropdown'
+                    >
+                        <span className='sr-only'>Open user menu</span>
+                        <Link to="/Login">
+                            <img
+                                className='w-8 h-8 rounded-full'
+                                src={login}
+                                alt='user'
+                                onClick={Login}
+                            />
+                        </Link>
                     </button>
 
                     <div

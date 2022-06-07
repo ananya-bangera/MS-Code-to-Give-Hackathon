@@ -1,14 +1,16 @@
 import React from 'react';
 import Home from './components/home/Home';
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Outlet, Link } from "react-router-dom";
+import { Login } from './components/Login';
 
 function App() {
     return (
-        <Scrollbars style={{ height: '100vh' }}>
-            <div className=''>
-                <Home />
-            </div>
-        </Scrollbars>
+        <div className=''>
+            <Home />
+            {/* <Link to="/">Login</Link> |{" "}
+            <Outlet/> */}
+
+        </div>
     );
 }
 
