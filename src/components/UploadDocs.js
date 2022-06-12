@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const UploadDocs = () => {
-  return (
-    <div>UploadDocs</div>
-  )
-}
+const UploadDocs = () => {
+    return <div>UploadDocs</div>;
+};
+
+export default UploadDocs;

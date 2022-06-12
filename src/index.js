@@ -1,25 +1,18 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-  } from "react-router-dom"; 
 import './index.css';
 import App from './App';
-import { Login } from './components/Login';
-import { AppyAID } from './components/AppyAID';
-import { ProfilePageFinancial } from './components/ProfilePageFinancial';
+import store from './redux/store';
+import { Provider } from 'react-redux';
+import './i18next'
+import {IntlProvider} from 'react-intl'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(   
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="Login" element={<Login />} />
-            <Route path="ApplyAID" element={<AppyAID />} />
-            <Route path="ProfilePageFinancial" element={<ProfilePageFinancial />} />
-        </Routes>
-        {/* <App/> */}
-    </BrowserRouter> 
-);
+root.render(
+    <Provider store={store}>
+        <Suspense fallback={(<div>Loading</div>)}>
+            <App />
+        </Suspense>
+    </Provider>
+)
+

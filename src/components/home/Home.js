@@ -1,22 +1,18 @@
 import React from 'react';
-
-import Navbar from '../Navbar';
-import Hero from './Hero';
-import Footer from '../Footer';
-import { Login } from '../Login';
-import { UserProfile } from './UserProfile';
-import { ProfilePage } from '../ProfilePageFinancial';
+import CarouselSection from './CarouselSection';
+import Whoarewe from './Whoarewe';
+import Howitworks from './Howitworks';
+import Benefeciaries from './Benefeciaries';
+import { useTranslation,Trans } from 'react-i18next';
 
 const Home = () => {
     return (
-        <>
-            <Navbar />
-            <br />
-            <UserProfile/>
-            {/* <ProfilePage/> */}
-            <br></br>
-            <Footer />
-        </>
+        <div className='container mx-auto'>
+            <CarouselSection />
+            <Whoarewe />
+            <Howitworks />
+            <Benefeciaries />
+        </div>
     );
 };
 
