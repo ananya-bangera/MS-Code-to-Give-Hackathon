@@ -1,20 +1,20 @@
 import React from 'react';
+import { useTranslation,Trans } from 'react-i18next';
 
-import Navbar from '../Navbar';
-import Hero from './Hero';
-import Footer from '../Footer';
-import { Login } from '../Login';
-import { UserProfile } from './UserProfile';
 
 const Home = () => {
+    // const count=1;
+    const { t, i18n } = useTranslation();
+    function handleClick(lang){
+        i18n.changeLanguage(lang)
+    };
     return (
-        <>
-            <Navbar />
-            <br />
-            <UserProfile/>
-            <br></br>
-            <Footer />
-        </>
+        <div className='h-48'>
+            <h1>{t('Home World')}</h1>
+        <button className='bg-pink-200' onClick={() => handleClick('hi')} >
+            Hindi
+        </button>
+        </div>
     );
 };
 
