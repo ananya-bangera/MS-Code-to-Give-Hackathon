@@ -22,9 +22,7 @@ const ProfilePageFinancial = () => {
                 'Upload your Aadhar Card',
                 'Proof of Residence',
             ],
-            [
-                
-            ],
+            [],
         ],
         Health: [
             [
@@ -118,6 +116,7 @@ const ProfilePageFinancial = () => {
                     <FirstPageAID textData={docs[location.state.name][0]} />
                 </Step>
                 <Step label='Two'>
+                    {/* <Two/> */}
                     <SecondPageAID textData={docs[location.state.name][1]} />
                 </Step>
                 <Step label='Three'>

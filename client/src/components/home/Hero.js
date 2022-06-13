@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../../assets/classes/Carousel';
+import Carousel from '../../classes/Carousel';
 import test from '../../assets/images/test.jpg';
 
 const items = [

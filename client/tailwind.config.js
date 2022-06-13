@@ -3,6 +3,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                // 'primary': '#f58220',
+                // 'secondary': '#006131',
                 'custom-primary': '#f58220',
                 'custom-primary-dark': '#CC640B',
                 'custom-secondary': '#006131',
@@ -16,5 +18,8 @@ module.exports = {
             // }
         },
     },
-    plugins: [],
+    plugins: [
+    require('tailwind-scrollbar-hide'),
+    require('flowbite/plugin')
+    ],
 };
