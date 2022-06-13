@@ -14,6 +14,8 @@ import ScheduleMeet from './components/profile/ScheduleMeet';
 import AdminDashboard from './components/admin/AdminDashboard';
 import { AboutUs } from './components/navigation/AboutUs';
 import { loadAdmin } from './redux/slices/adminAuth';
+import { DisplayApplications } from './components/navigation/DisplayApplications';
+import { DisplaySingleApp } from './components/navigation/DisplaySingleApp';
 
 function App() {
     const { token } = useSelector((state) => state.adminAuth);
@@ -36,6 +38,8 @@ function App() {
                     <Route path='/admin-login' element={<AdminLogin />} />
                     <Route path='/aboutus' element={<AboutUs/>} />
                     <Route path='/admin' element={<AdminDashboard />} />
+                    <Route path='/displayApplications' element={<DisplayApplications />} />
+                    <Route path='/displaySingleApp' element={<DisplaySingleApp />} />
                     <Route path='/apply-aid' element={<AppyAID />} />
                     {/* <Route path='/apply-aid2' element={<ProfilePageFinancial />} /> */}
                     <Route

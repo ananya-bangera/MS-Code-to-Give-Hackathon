@@ -17,13 +17,13 @@ export const UserDetails = () => {
                 <div className='font-mono p-1'>Scheme Name: Education</div> 
                 <div className='font-mono p-1'>Application Date: 02/06/2022</div> 
                 <div className='font-mono p-1'>Application Status: Approved</div> 
-                <button className='p-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>View Application</button>  
+                <button className='p-1 bg-custom-primary hover:bg-custom-primary-dark text-white font-bold py-2 px-4 rounded-full'>View Application</button>  
             </div>      
             <div className='m-6 bg-white p-4 rounded-[10px]'>
-            <div className='font-mono p-1'>Scheme Name: Education</div> 
-            <div className='font-mono p-1'>Application Date: 11/05/2022</div> 
-            <div className='font-mono p-1'>Application Status: Approved</div> 
-            <button className='p-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>View Application</button>  
+                <div className='font-mono p-1'>Scheme Name: Education</div> 
+                <div className='font-mono p-1'>Application Date: 11/05/2022</div> 
+                <div className='font-mono p-1'>Application Status: Approved</div> 
+                <button className='p-1 bg-custom-primary hover:bg-custom-primary-dark text-white font-bold py-2 px-4 rounded-full'>View Application</button>  
             </div>      
         </div>      
             
