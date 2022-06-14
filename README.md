@@ -12,7 +12,7 @@
   <p align="center">
     A platform for the beneficiaries of the St. Judes India ChildCare Centres to raise requests for receiving aid from St. Judes For Life(SJFL). 
     <br />
-    <a href="https://detective-dog.netlify.app/">View Demo</a>
+   
     ·
     <a href="https://github.com/utsavk28/MS-Code-to-Give-Hackathon/issues">Report Bug</a>
     ·
