@@ -54,12 +54,14 @@ This website is for St. Judes For Life(SJFL) organisation started by Morgan Stan
 <br>
 <table>
   <tr>
-    <td><b> Home Page </b></td>
-     <td><b> Home Page </b></td>
+     <td><b> Home Page1 </b></td>
+     <td><b> Home Page2 </b></td>
+     <td><b> Home Page3 </b></td>
   </tr>
   <tr>
-    <td><img src = "" width = 700></td>
-    <td><img src = "" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage1.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage2.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage3.png" width = 700></td>
   </tr>
  </table>
  <br>
