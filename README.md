@@ -138,8 +138,6 @@ This website is for St. Judes For Life(SJFL) organisation started by Morgan Stan
 **Server:**  
 <a href="https://www.postgresql.org/" title="Postgresql"><img src="/client/src/assets/images/postgresql.svg" alt="Postgresql" width="31px" height="31px"></a>
 <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="/client/src/assets/images/fastapi-1.svg" alt="FastAPI" width="31px" height="31px" ></a>
-<a href="https://www.twilio.com/" title="Twilio"><img src="/client/src/assets/images/twilio-2.svg" alt="Twilio" width="31px" height="31px"></a>
-<a href="https://notify.ly/" title="Notify"><img src="/client/src/assets/images/notify.svg" alt="Notify" width="31px" height="31px"></a>
 
 
 <!-- USAGE EXAMPLES -->
