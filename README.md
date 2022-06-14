@@ -59,96 +59,66 @@ This website is for St. Judes For Life(SJFL) organisation started by Morgan Stan
      <td><b> Home Page3 </b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage1.png" width = 700></td>
-    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage2.png" width = 700></td>
-    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/HomePage3.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/HomePage1.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/HomePage2.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/HomePage3.png" width = 700></td>
   </tr>
  </table>
  <br>
 
 <table>
   <tr>
-    <td><b> About Us Page </b></td>
-     <td><b> How It Works Page </b></td>
+    <td><b> About Us Page1 </b></td>
+     <td><b> About Us Page2 </b></td>
   </tr>
   <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
+ <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/AboutUs1.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/AboutUs1.png" width = 700></td>
   </tr>
  </table>
  <br>
 
 <table>
   <tr>
-     <td><b> User Login Page </b></td>
-     <td><b> Admin Login Page </b></td>
+     <td><b> User Profile Page </b></td>
+     <td><b> Admin Dashboard1 </b></td>
+      <td><b> Admin Dashboard2 </b></td>
   </tr>
   <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
+ <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/ProfilePage.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/AdminDashBoard1.png" width = 700></td>
+<td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/AdminDashBoard2.png" width = 700></td>
   </tr>
  </table>
  <br>
  
 <table>
   <tr>
-    <td><b> User Profile Page </b></td>
-    <td><b> Admin Dashboard </b></td>
+    <td><b>Display Applications</b></td>
+    <td><b>Display Single Application</b></td>
   </tr>
   <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
+ <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/DisplayApplications.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/DisplaySingleApplication.png" width = 700></td>
   </tr>
  </table>
  <br>
  
 <table>
   <tr>
-    <td><b>  </b></td>
-    <td><b>  </b></td>
+    <td><b>How It Works  </b></td>
+    <td><b> Language Changed </b></td>
   </tr>
   <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
+<td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/HowItWorks.png" width = 700></td>
+    <td><img src = "https://github.com/ananya-bangera/MS-Code-to-Give-Hackathon/blob/main/images/DiffLang.png" width = 700></td>
   </tr>
  </table>
  <br>
  
-<table>
-  <tr>
-    <td><b>  </b></td>
-    <td><b>  </b></td>
-  </tr>
-  <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
-  </tr>
- </table>
+
  <br>
- 
- <table>
-  <tr>
-    <td><b>  </b></td>
-    <td><b>  </b></td>
-  </tr>
-  <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
-  </tr>
- </table>
- <br>
- 
- <table>
-  <tr>
-    <td><b>  </b></td>
-    <td><b>  </b></td>
-  </tr>
-  <tr>
-    <td><img src = "" width = 500></td>
-    <td><img src = "" width = 500></td>
-  </tr>
- </table>
- <br>
+
 
 ## 🖥Features
 
